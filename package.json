@@ -1,0 +1,19 @@
+{
+    "name": "rkem-kfservices-local-props",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon express-mocks"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    },
+    "dependencies": {
+        "@okta/jwt-verifier": "^2.3.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    }
+}
